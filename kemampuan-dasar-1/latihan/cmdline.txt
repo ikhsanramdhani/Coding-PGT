@@ -1,0 +1,106 @@
+    Berikut adalah 22 Cmd yang saya tau :   
+
+1. start = untuk membuka jendela cmd baru
+
+2. ver = untuk menampilkan versi perangkat
+    C:\Users\Ikhsan>ver
+
+    Microsoft Windows [Version 10.0.22000.795]
+
+3. ping 1.1.1.1 = Tes Ping Google
+
+    Pinging 1.1.1.1 with 32 bytes of data:
+    Reply from 1.1.1.1: bytes=32 time=79ms TTL=57
+    Reply from 1.1.1.1: bytes=32 time=190ms TTL=57
+    Reply from 1.1.1.1: bytes=32 time=96ms TTL=57
+    Reply from 1.1.1.1: bytes=32 time=30ms TTL=57
+
+    Ping statistics for 1.1.1.1:
+        Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+    Approximate round trip times in milli-seconds:
+        Minimum = 30ms, Maximum = 190ms, Average = 98ms
+
+4. color a = Merubah warna tulisan menjadi hijau
+
+5. cd Desktop = Change Directory ke Desktop
+    C:\Users\Ikhsan>cd Desktop
+
+    C:\Users\Ikhsan\Desktop>
+
+6. cd .. = Change Directory dari Desktop ke sebelumnya
+    C:\Users\Ikhsan\Desktop>cd ..
+
+    C:\Users\Ikhsan>
+
+7. whoami = untuk melihat nama user
+    C:\Users\Ikhsan>whoami
+    ikhsanramdhani\ikhsan
+
+8. diskpart = untuk mengelola size penyimpanan hardisk
+    DISKPART> list disk
+
+    Disk ###  Status         Size     Free     Dyn  Gpt
+    --------  -------------  -------  -------  ---  ---
+    Disk 0    Online          931 GB  7168 KB        *
+
+    DISKPART>
+
+9. ipconfig = untuk melihat konfigurasi alamat IP komputer.
+    C:\Users\Ikhsan>ipconfig
+
+    Windows IP Configuration
+
+
+    Ethernet adapter Ethernet:
+
+    Media State . . . . . . . . . . . : Media disconnected
+    Connection-specific DNS Suffix  . :
+
+    Wireless LAN adapter Local Area Connection* 1:
+
+    Media State . . . . . . . . . . . : Media disconnected
+    Connection-specific DNS Suffix  . :
+
+    Wireless LAN adapter Local Area Connection* 2:
+
+    Media State . . . . . . . . . . . : Media disconnected
+    Connection-specific DNS Suffix  . :
+
+    Wireless LAN adapter Wi-Fi:
+
+    Connection-specific DNS Suffix  . :
+    IPv4 Address. . . . . . . . . . . : 192.168.100.16
+    Subnet Mask . . . . . . . . . . . : 255.255.255.0
+    Default Gateway . . . . . . . . . : 192.168.100.1
+
+10. hostname = untuk melihat nama host jaringan
+    C:\Users\Ikhsan>hostname
+    ikhsanramdhani
+
+11. tree = untuk melihat lengkap semua subfolder yang ada di perangkat dalam waktu singkat
+
+12. tasklist = untuk menampilkan informasi aplikasi yang berada atau sedang berjalan di komputer
+
+13. taskkill (spasi) nomor PID = untuk menghentikan aplikasi yang sedang berjalan di komputer
+
+14. help = untuk menampilkan apa saja yang bisa di gunakan di dalam cmd
+
+15. date = untuk menampilkan tanggal
+    C:\Users\Ikhsan>date
+    The current date is: 12/08/2022
+
+16. time = untuk menampilkan waktu 
+    C:\Users\Ikhsan>time
+    The current time is: 14:20:15,07
+
+17. getmac = untuk melihat mac Address
+
+18. systeminfo =  untuk menampilkan spek informasi perangkat
+
+19. mkdir (spasi) nama folder = untuk membuat folder di cmd
+
+20. netstat = memberikan informasi terkait status port
+
+21. cls = untuk menghapus semua kode yang sudah ditulis di cmd
+
+22. exit = untuk menghapus dan keluar otomatis dari cmd
